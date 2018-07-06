@@ -1,0 +1,22 @@
+Installation steps:
+
+yum install -y docker-engine
+
+Enable service:
+
+systemctl enable docker
+
+Run as service:
+
+systemctl start docker
+
+To run docker as non-root user
+
+usermod -a -G docker user
+
+View groups that a user belongs to:
+
+cat /etc/group | grep group-name
+
+
+
