@@ -1,0 +1,15 @@
+Inspect a docker image:
+
+docker inspect <imageName>/<imageId>
+
+Run a docker image as container
+
+docker run image-name
+
+Search for docker images using command line
+
+docker search <partialsearchstring>
+
+List containers
+
+docker ps -a
